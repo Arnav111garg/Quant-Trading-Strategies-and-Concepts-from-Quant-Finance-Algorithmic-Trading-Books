@@ -1,5 +1,5 @@
 # Quant Trading Strategies and Concepts from Quant Finance Algorithmic Trading Books
-Implementing/REPLICATING Quant Trading Strategies/Concepts codes from Quant Finance/Algorithmic Trading Books in Python.
+Implementing/Replicating Quant Trading Strategies/Concepts codes from Quant Finance/Algorithmic Trading Books in Python.
 
 QUANT FINANCE/ALGORITHMIC TRADING BOOKS:
 1. Advanced Quant Strategies By - Micheal L. Halls-Moore
