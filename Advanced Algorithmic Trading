@@ -1,0 +1,47 @@
+- Definition of Bayesian Statistics:
+Bayesian statistics is a specific approach to probability that provides mathematical tools for rationally updating beliefs in the light of new data or evidence. Unlike other statistical branches, it interprets probability as a measure of belief or confidence an individual possesses regarding the occurrence of a specific event
+. This allows a researcher to start with a "prior" opinion, incorporate new evidence, and arrive at a refined "posterior" belief.
+Frequentist vs. Bayesian Philosophies
+The sources distinguish this approach from the more traditional Frequentist (Classical) statistics through their differing philosophies on uncertainty
+:
+Frequentist Philosophy: Assumes that probabilities are the long-run frequency of random events occurring in repeated, independent trials
+. It attempts to eliminate uncertainty by providing fixed estimates
+.
+Bayesian Philosophy: Views probability as a summary of an individual’s opinion
+. It preserves and refines uncertainty by adjusting beliefs as data arrives
+. While different individuals may start with different prior beliefs based on their access to information, these beliefs will converge toward each other as they are rationally updated by new data
+.
+The Mechanism of Bayesian Inference
+The application of this philosophy to data prediction is known as Bayesian Inference
+. It relies on a specific mathematical structure involving four core components
+:
+Prior (P(θ)): The strength of belief in a parameter (such as the fairness of a coin) before considering new evidence
+.
+Likelihood (P(D∣θ)): The probability of seeing the observed data given a specific model parameter
+.
+Evidence (P(D)): The probability of the data itself, determined by summing or integrating across all possible parameter values
+.
+Posterior (P(θ∣D)): The refined belief in the parameter after the evidence has been taken into account
+.
+One of the most valuable aspects of this technique is its recursive nature: a posterior belief generated from one set of data can serve as the prior belief for the next set of data, allowing for a continuous adjustment of models as market conditions evolve
+.
+Practical Example: The Coin-Flip
+The chapter illustrates this theory using the example of a coin with unknown fairness
+.
+Initial State: A researcher begins with a uniform distribution, stating that any level of fairness (from 0% heads to 100% heads) is equally likely
+.
+Updating: As individual "Bernoulli trials" (flips) are observed, the probability density shifts
+. If the first few flips are all heads, the "belief" shifts toward the coin being biased
+.
+Convergence: As more data is accumulated (e.g., 500 trials), the initial prior is "washed out" by hard data
+. The width of the probability density shrinks, representing an increase in certainty as the model converges on the "true" fairness of the coin
+.
+Significance in Quantitative Finance
+This framework is essential for quants because it provides a sophisticated toolkit for understanding why asset prices change or predicting their future values
+. It is particularly useful for:
+Tail-Risk Management: Bayesian logic suggests applying low probabilities to "highly improbable" events rather than assuming they are "impossible," which helps avoid the catastrophic failures seen in firms like Long-Term Capital Management or Lehman Brothers
+.
+Regime Detection: By modeling the market as a "hidden" state (like the secret fairness of the coin), quants can use observed returns to filter out high-volatility periods
+.
+Non-Stationary Markets: Because Bayesian methods do not require "infinite repeated trials," they are better suited for financial markets where structural relationships often change abruptly
+.
